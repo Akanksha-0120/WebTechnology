@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script>
+     let main=document.getElementById('main')
+     console.log(main)
+     let nav=document.getElementById('nav')
+      console.log(nav)
+     let box=document.getElementsByClassName('Box6')
+      console.log(box)
+     let sel=document.querySelector('.Box6')
+      console.log("Slector returns",sel)
+     let sel2=document.querySelector('#nav')
+      console.log("Selector returns",sel2)
+     let sel3=document.querySelector('#nav>li')
+      console.log("Selector returns",sel3)
+    </script>
+</head>
+<body>
+    <div id="main" class="Box6">
+        This is the 8th session of javascript.
+        <p>We will learn about DOM-Document Object Module</p>
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Privacy</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+</body>
+</html>

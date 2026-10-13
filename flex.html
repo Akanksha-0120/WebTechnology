@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <script type="text/javascript"></script>
+    <style type="text/css">
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:20px ;
+            padding:0 20px 30px 0 ;
+            line-height: 1.4;
+        }
+        .flex-container{
+            display: flex;
+            width: 100%;
+            height: 500px;
+            border: 20px solid slateblue;
+           align-content: space-between;
+           /*flex-direction: column-reverse;*/
+           /*flex-wrap: wrap-reverse;*/
+        }
+        .flex-item{
+            width: 75px; 
+           /* height: 75px;*/
+            background-color:lightblue ;
+            color: white ;
+            font-size:2em ;
+            font-weight:bold ;
+            border: 2px solid darkblue;
+            text-align:center ;
+            line-height: 1.4;
+        }
+        #flex-item-1{
+            background-color: pink;
+           /*flex: 3 2 250px;*/
+          /* align-self: stretch;*/
+           /*flex-grow: 2;
+           flex-shrink: 2;*/
+        }
+        #flex-item-2{
+            background-color: rgb(96, 17, 31);
+        }
+        #flex-item-3{
+            background-color: rgb(79, 206, 106);
+        }
+        #flex-item-4{
+            background-color: rgb(131, 109, 32);
+        }
+        #flex-item-5{
+            background-color: rgb(228, 118, 136);
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+       <div class="flex-item" id="flex-item-1">1</div>
+       <div class="flex-item" id="flex-item-2">2</div>
+       <div class="flex-item" id="flex-item-3">3</div>
+       <div class="flex-item" id="flex-item-4">4</div>
+       <div class="flex-item" id="flex-item-5">5</div>
+    </div>
+</body>
+</html>

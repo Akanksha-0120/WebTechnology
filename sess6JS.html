@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script>
+        let i=0
+        //for loop
+        for(i=1;i<=5;i++) console.log(i)
+
+        let subj=["CN","DBMS","OS","DSA","OOPS"]
+        console.log(subj.length)
+        for(let idx=0;idx<subj.length;idx++){
+          let ele=subj[idx]
+          console.log("My subject : ",ele)
+        }
+        
+        //for each loop
+         subj.forEach(function f(ele){
+            console.log("Subject name : ",ele)
+         })
+
+
+        //for of loop
+         for(ele of subj) console.log("My subject : ",ele)
+
+         //for in loop
+
+          let employee={
+                name:"Akanksha",
+                Salary: 1000,
+                yoe: 1,
+                "ready to relocate":true
+            }
+            for(key in employee) console.log(`The ${key} of employee ${employee[key]}`)
+
+            //while loop
+            let j=2
+            while(j<5){
+                console.log(`${j} is less than 5`,j)
+                j++
+            }
+
+            //do while loop
+            do{
+                console.log("This is will print only one times atleast")
+            }while(j<2)
+    </script>
+</head>
+<body>
+    <div class="Box5">
+        This is the 7th session of javascript.
+        <p>We will learn about loops</p>
+    </div>
+</body>
+</html>
