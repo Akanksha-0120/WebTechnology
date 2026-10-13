@@ -1,58 +1,18 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
 }
 html,body{
     width: 100%;
     height: 100;
 }
-#main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Gill Sans';
+.colorFont{
+    color: brown;
+    text-align: center;
+    font-weight: bolder;
 }
-h1{
-    font-weight: normal;
-}
-.shape{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-}
-#square{
-    margin-top: 110px;
-}
-#square:hover{
-    background-color: red;
-}
-#circle:hover{
-   /* border-radius: 50%;*/
-    background-color:green;
-}
-#circle{
-    border-radius: 50%; 
-}
-#diamond:hover{
-   /* rotate: 45deg;
-    margin-top: 60px;*/
-    background-color: blue;
-}
-#diamond{
-    rotate: 45deg;
-    margin-top: 40px; 
-    width: 142px;
-    height: 142px;
-    translate: 30px;
-}
-#diamond h1{
-    rotate: -45deg;
+h2{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
 }
