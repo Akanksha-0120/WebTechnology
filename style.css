@@ -10,57 +10,49 @@ html,body{
 #main{
     width: 100%;
     height: 100%;
-    /*display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; change the position*/
+    justify-content: center;
+    font-family: 'Gill Sans';
 }
-.card
-{
-    position: absolute;
-   /* top: 20%;it is not necessary but my live server is not working properly thatswhy i have to write this*/
-    /*another way of changing the position*/
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 300px;
-    border: 2px solid black;
-    border-radius: 20px;
-    overflow: hidden;
+h1{
+    font-weight: normal;
 }
-#c1{
-    z-index: 4;
-    transform: translate(-50%,-50%);
-    background-color: aquamarine;
+.shape{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
 }
-#c2
-{
-    z-index: 3;
-    transform: translate(-50%,-50%) rotate(5deg);
-    background-color: bisque;
+#square{
+    margin-top: 110px;
 }
-#c3
-{
-    z-index: 2;
-    transform: translate(-50%,-50%) rotate(10deg);
-    background-color: rgb(207, 128, 10);
+#square:hover{
+    background-color: red;
 }
-#c4{
-    z-index: 1;
-    transform: translate(-50%,-50%) rotate(15deg);
-    background-color: aqua;
+#circle:hover{
+   /* border-radius: 50%;*/
+    background-color:green;
 }
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#circle{
+    border-radius: 50%; 
 }
-#c2:hover{
-    z-index: 7;
+#diamond:hover{
+   /* rotate: 45deg;
+    margin-top: 60px;*/
+    background-color: blue;
 }
-#c3:hover{
-    z-index: 7;
+#diamond{
+    rotate: 45deg;
+    margin-top: 40px; 
+    width: 142px;
+    height: 142px;
+    translate: 30px;
 }
-#c4:hover{
-    z-index: 7;
+#diamond h1{
+    rotate: -45deg;
 }
